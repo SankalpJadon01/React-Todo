@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Press+Start+2P&display=swap');
+
+body{
+background-image: url('https://wallpaperaccess.com/full/1935628.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+color:#D6D5A8;
+}
+.outerBox{
+
+width:800px;
+margin:2% auto ;
+
+}
+.box{
+font-family: monospace, cursive;
+background:#51557E;
+color:#D6D5A8;
+width: 100%;
+height:170px;
+border-radius:10px;
+padding-bottom:10px;
+}
+
+.todo-list {
+max-height:300px;
+overflow-y:auto;
+}
+.doneTasks-title{
+background:#51557E;
+color:#D6D5A8;
+margin:0;
+margin-top: 10px;
+text-align: center;
+border-radius: 10px;
+}
+.doneTasks-list{
+overflow-y:auto;
+max-height:210px;
+}
+ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+
+li{
+display:flex;
+justify-content:space-between;
+background: lightgrey;
+font-size:18px;
+font-weight:600;
+color:black;
+padding:15px 15px 15px 10px;
+border-bottom:1px solid white;
+border-top:1px solid white;
+border-radius:10px;
+}
+
+li:hover{
+background: darkgrey;
+
+
+}
+p{
+margin:0;
+padding:0;
+}
+.icon{
+display:flex;
+justify-content:space-around;
+width:150px;
+}
+.pointer{
+cursor:pointer;
+}
+.rightSide{
+display:flex;
+justify-content:space-around;
+width:400px;
+}
+
+.text-end{
+text-align:center;
+}
+h1,h3{
+margin-block: 10px;;
+padding:10px 10px 3px 0px;
+}
+.text-addTodo{
+text-align: center;
+margin-top:10px;}
+
+input[type=text],select,input[type=date]{
+padding:7px;
+width:250px;
+border-radius:5px;
+border:0px;
+}
+.btn-addTodo{
+color:white;
+background:dodgerblue;
+font-size:14px;
+font-weight:600;
+border:none;
+padding:5px;
+border-radius:6px;
+margin-left:15px;
+cursor:pointer;
+}
+.text-addNewTask{
+text-align:center;
+}
+ input[type=date]{
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+width:150px;
+
+}
+
+
+input[type=text]:focus, input[type=date]:focus, select:focus{
+outline:none;
+}
+
+
+.line-through{
+text-decoration :line-through;
+color:green;
+}
+.red{
+color:red;
+}
+.blue{
+color:dodgerblue;
+}
+.green{
+color:yellowgreen;
+}
+
+h5{
+text-align: center;
+}
